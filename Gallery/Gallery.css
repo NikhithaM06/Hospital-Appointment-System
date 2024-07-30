@@ -1,0 +1,28 @@
+body{
+    background-color:#320d3e;
+    
+}
+.headline {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    background-color:#d902ee;
+    font-size:35px ;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 100%;
+    color: #ffd79d;
+    
+}
+.gallery-item{
+    display: flex;
+    
+    align-items: center;
+}
+.gallery-item img{
+
+    padding-top: 5px;
+    padding-inline: 20px;
+    height:300px;
+    width: 500px;
+}

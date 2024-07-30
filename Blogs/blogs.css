@@ -1,0 +1,26 @@
+body{
+    background-color:#320d3e;   
+}
+.headline {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    background-color:#d902ee;
+    font-size:25px ;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 80%;
+    color: #ffd79d;    
+}
+.container{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

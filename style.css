@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --fontcolor:white;
+    --backgroundcolor:beige;
+}
+.main-image{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 75px;
+    height: 100vh;
+}
+.container{
+    margin-top: 100px;
+    background: url(images/headerimage.jpg);
+    width: 100%;
+    padding-top: 8.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container .main-text{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    padding: 0 2rem;
+    text-align: center;
+    
+    
+}
+.container .main-text h2{
+    width:max-content;
+    font-size: 40px;
+    color:#320d3e;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;;
+    background: linear-gradient(45deg, rgba(255, 87, 87, 0.5), rgba(255, 215, 157, 0.5));;
+    border-radius: 50px;
+    
+}
+.container .main-text button{
+    padding: 1.5rem 3.5rem;
+    background:linear-gradient(#ff5757,#ffd79d);
+    color: ;
+    border-radius: 10px;
+    border:1px solid white;
+}
+.service-section{
+    padding: 2rem 7%;
+    background: linear-gradient(#ff5757,#320d3e);
+    min-height: 50vh;
+}
+#ourservices{
+    color: white;
+    font-size: 30px;
+    padding: 2rem 0;
+    text-align: center;
+}
+.inner-service-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.service-box{
+    flex: 1 1 200px;
+    padding: 5rem 0;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.service-box i{
+    color: white;
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+.service-box h2{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.service-box p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+.work-section{
+    padding: 4rem 7%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    background: linear-gradient(#320d3e,#f162ff);
+}
+.inner-work-section h2{
+    font-size: 25px;
+    padding: .5rem 0;
+    color:white;
+}
+.text-work{
+    color:#ffd79d;
+}
+.scnclass{
+    padding: 0 1rem;
+    color:#ffd79d;
+}
+.scnclass a{
+    color:#ffd79d;
+}
+.myimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
+}
+.myimages img{
+    height:210px;
+    width:337px;
+}
+
+
+.btn{
+    padding: 1rem 3rem;
+    background: var(--backgroundcolor);
+    border-radius: 15px;
+   display: inline-block;
+   color: white;
+   font-size: 18px;
+   margin-top: 5px;
+}
+.creative-text{
+    padding: 2rem 0;
+}
+.gallery{
+    background:linear-gradient(#f162ff,#320d3e);
+    min-height: 100vh;
+    padding: 2rem 9%;
+}
+.galleryheading{
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 30px;
+}
+.galleryheading span{
+    color: var(--fontcolor);
+}
+.main-gallery .gallery-box{
+    flex: 1 1 300px;
+}
+.main-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.gallery-box img{
+    width: 100%;
+}
+.ourteam-section{
+    padding: 10rem;
+    background:linear-gradient(#320d3e,#ff5757);
+}
+.ourteam-section h2{
+    color:#ffd79d;
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.ourteam-section h2 span{
+    color: white;
+    
+}
+.ourteam-inner{
+    display: flex;
+    flex-wrap: wrap;
+   
+    text-align: center;
+    gap: 15px;
+}
+.ourteam-inner .section-box{
+    flex: 1 1 250px;
+}
+.ourteam-inner .section-box img{
+    width: 100%;
+}
+.section-box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: white;
+}
+.team-social-links i{
+    color: var(--fontcolor);
+    font-size: 2rem;
+    padding:1rem 0;
+}
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: linear-gradient(#320d3e,#ff5757);
+    padding: 2rem 9%;
+}
+.inner-footer{
+    flex: 1 1 200px;
+}
+.inner-footer h2{
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.inner-footer a{
+    display: block;
+
+    color:#ffd79d;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .container .main-text{
+        width: 70%;
+        padding: 0 ;
+    }
+   .work-section{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+   .myimages img{
+       width: 100%;
+   }
+   .btn{
+       display: block;
+   }
+}

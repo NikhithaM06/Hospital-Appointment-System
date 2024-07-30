@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --fontcolor:#ffd79d;
+    --backgroundcolor:#320d3e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(#ff5757,#320d3e);
+    box-shadow: 0 1rem 1rem rgb(0, 0, 0, .1);
+    z-index: 10000000;
+}
+header .navbar a{
+    font-size: 2.5rem;
+    color: var(--fontcolor);
+    margin-left: 1.5rem;
+}
+.icons i{
+font-size: 2rem;
+color: var(--fontcolor);
+margin-left: 1rem;
+}
+header #menu_bars{
+    font-size: 2rem;
+    color: var(--fontcolor);
+    display: none;
+}
+header .navbar.active{
+    left: 0;
+    transition: .5s;
+}
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    header #menu_bars{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        right: 0;
+        background: var(--backgroundcolor);
+        height: 100vh;
+        text-align: center;
+
+    }
+    header .navbar a{
+        display: block;
+        background: white;
+        margin-top: 1rem;
+        padding: 2rem;
+        width: 90%;
+        border-radius: 10px;
+    }
+}
+.header img{
+    height: 100px;
+    width:100px;
+}
