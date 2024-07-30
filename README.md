@@ -1,1 +1,2 @@
-# Hospital-Appointment-System
+Hospital Appointment System Using MERN
+A hospital appointment system using the MERN stack (MongoDB, Express.js, React.js, and Node.js) streamlines the process of scheduling and managing appointments. Patients can easily book, reschedule, or cancel appointments through an intuitive React.js front-end interface. The Node.js and Express.js backend handle requests efficiently, ensuring fast and secure processing of patient data. MongoDB provides a robust database solution, storing patient details, appointment schedules, and medical records securely. This system enhances the patient experience by reducing wait times and administrative burden while ensuring data integrity and accessibility for healthcare providers.
